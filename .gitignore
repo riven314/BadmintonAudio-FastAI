@@ -5,3 +5,5 @@
 /.vscode
 /dataset
 /test_dataset
+
+/*.csv
