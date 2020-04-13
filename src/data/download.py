@@ -50,7 +50,7 @@ def convert_title(raw_title):
 if __name__ == '__main__':
     csv_path = os.path.join('dataset', 'match_list.csv')
     save_dir = os.path.join('dataset', 'raw_videos')
-    download_videos(csv_path, save_dir)
+    download_videos(csv_path, save_dir, pool_n = 2)
 
 
 
